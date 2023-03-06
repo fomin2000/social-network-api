@@ -1,0 +1,22 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Social Network API where user can share/react to thoughts, and create friend lists.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node utils/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fomin2000/social-network-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "mongoose-unique-validator": "^3.1.0"
+  }
+}
