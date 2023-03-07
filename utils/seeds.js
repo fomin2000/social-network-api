@@ -6,7 +6,10 @@ connection.on('error', (err) => err);
 
 connection.once('open', async () => {
   let promises = [];
-  console.log('connected');
+  console.log(`
+    Database has connected!
+    -----------------------
+  `);
 
   await Thought.deleteMany({});
   await User.deleteMany({});
